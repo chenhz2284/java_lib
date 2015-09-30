@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="VideoMonitor.makewar" default="build_jar" basedir=".">
+	
+	<property name="bin" location="bin" />
+	<property name="fileName" value="ChzLogger.jar" />
+	
+	<target name="build_jar">
+		<jar jarfile="${fileName}" basedir="${bin}" />
+	</target>
+	
+</project>
